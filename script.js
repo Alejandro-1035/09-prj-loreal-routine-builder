@@ -10,7 +10,7 @@ productsContainer.innerHTML = `
     Select a category to view products
   </div>
 `;
-
+//test
 /* Load product data from JSON file */
 async function loadProducts() {
   const response = await fetch("products.json");
