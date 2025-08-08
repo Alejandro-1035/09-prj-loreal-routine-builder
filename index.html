@@ -53,7 +53,15 @@
       <!------- Chat Area ------->
       <section class="chatbox">
         <h2>Let's Build Your Routine</h2>
-        <div id="chatWindow" class="chat-window"></div>
+        <div class="chat-container">
+          <div id="chatWindow" class="chat-window"></div>
+          <div class="disclaimer">
+            <strong>Disclaimer:</strong>
+            This is not a real L'Oréal ai assistant, please advise with a actual
+            Lo'real skincare advisor. Products listed are purly for completing
+            course work
+          </div>
+        </div>
 
         <form id="chatForm" class="chat-form">
           <label for="userInput" class="visually-hidden">Message</label>
@@ -84,8 +92,7 @@
       </footer>
     </div>
 
-    <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
-    <script src="secrets.js"></script>
+    <!-- Using Cloudflare Workers for API requests -->
     <script src="script.js"></script>
   </body>
 </html>
